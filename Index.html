@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IBoat</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- Icons-->
+        <script src="https://kit.fontawesome.com/4e2a9c03bf.js" crossorigin="anonymous"></script>
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" >
+                    <div class="container">
+                        <a class="navbar-brand" href="Index.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end " id="navbar-links">
+                            <ul class="navbar nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="Index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="fipac.php">Portal</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Marinha</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="reservaCentral.html">Reserva</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <a href="php/reserva.php" class="main-btn">
+                                <img src="img/imgcarro1.jpeg" class="d-block w-100" alt="...">
+                            </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="php/login.php" class="main-btn">
+                            <img src="img/imgcarro2.jpeg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="php/fipac.php" class="main-btn">
+                            <img src="img/imgcarro3.jpeg" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div id="about-iboat">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title">Sobre o IBoat</h3>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" id="img-res" alt="Imagem Grupo" src="img/logo2.png">
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="about-title">Mais que um trabalho, um TCC!</h3>
+                                <p>Talvez a gente se perdeu pelo caminho<br>
+                                Mesmo do seu lado eu me sinto tão sozinho<br>
+                                E agora a gente não consegue dizer nada, nada, nada<br>
+                                Eu vim dizer adeus<br><br>
+                                Melhor eu ir, tchal<br>
+                                Melhor o final<br>
+                                Melhor assim, assim<br>
+                                Melhor pra mim e pra você também</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="instu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title">As instituições</h3>
+                            </div>
+                            <div class="col-md-4 service-box">
+                                <i class="fas fa-fish"></i>
+                                <h4>FIPAC</h4>
+                                <p>Fui desatento, meu amor
+                                    Quem ama tem que reparar</p>
+                            </div>
+                            <div class="col-md-4 service-box">
+                                <i class="fas fa-anchor"></i>
+                                <h4>Marinha</h4>
+                                <p>E quantos grãos deixei cair
+                                    Será que já chegou ao fim</p>
+                            </div>
+                            <div class="col-md-4 service-box">
+                                <i class="fas fa-ship"></i>
+                                <h4>Barqueiros</h4>
+                                <p>Que talvez a gente se encontrou na hora errada
+                                    Eu pensando em amor, você pensando madrugada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title">Contribuintes</h3>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                            <div class="col-lg-2">
+                              <div class="card h-100">
+                                <img src="img/Pai.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Alexandre Ramalho</h5>
+                                  <p class="card-text">Desenvolvedor do Software</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="card h-100">
+                                <img src="img/Rebecuda.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Rebeca Gujanski</h5>
+                                  <p class="card-text">Pesquisadora</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="card h-100">
+                                <img src="img/Duarte.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gabriel Duarte</h5>
+                                  <p class="card-text">Gerente</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="card h-100">
+                                <img src="img/Cadu.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Carlos Eduardo</h5>
+                                  <p class="card-text">Idealista</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="card h-100">
+                                  <img src="img/Patrick.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Patrick Santos</h5>
+                                    <p class="card-text">Piadista</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div id="aboutus">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="main-title">Quem somos nós</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-finnaly">
+                                    "Somos um grupo de um TCC(Trabalho de Conclusão do Curso), do IFRJ-Campus Arraial do Cabo.<br>
+                                    Pensamos em criar esse site com o proposito de automatizar fontes importantes para a economia local de
+                                    uma forma criativa e com ambição de fazer mais que um simples trabalho."
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-autor">Fala dos integrantes do grupo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="contato">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Contato</h3>
+                        </div>
+                        <div class="col-md-6 contact-box">
+                            <i class="fas fa-envelope"></i>
+                            <p><span class="contact-title">Envie um email:</span>ramalhoalexandre095@gmail.com</p>
+                        </div>
+                        <div class="col-md-6 contact-box">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.5624061048948!2d-42.0274031855069!3d-22.966337595771556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97196484c00001%3A0x2785e8be14133867!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20do%20Rio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1629241599987!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rodape">
+                <div class="container">
+                    <div class="row">
+                        <p>Desenvolvido por <a href="" target="_blank">IBoat</a>&copy;2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
