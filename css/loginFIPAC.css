@@ -1,0 +1,33 @@
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif !important;
+    /*Back*/
+    background-image: url('https://app.brmodeloweb.com/assets/img/wave01.svg'),url('https://app.brmodeloweb.com/assets/img/wave02.svg'),url('https://app.brmodeloweb.com/assets/img/wave03.svg');
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+
+
+
+#box{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 2px 30px rgb(195, 195, 195);
+}
+
+form {
+    max-width: 320px;
+    margin: auto;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 300;
+}
+.erro p{
+    color: #d93025;
+    font-size: 13px;
+    
+}

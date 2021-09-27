@@ -1,0 +1,17 @@
+/*Geral*/
+body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif !important;
+    /*Back*/
+    background-image: url('https://app.brmodeloweb.com/assets/img/wave01.svg'),url('https://app.brmodeloweb.com/assets/img/wave02.svg'),url('https://app.brmodeloweb.com/assets/img/wave03.svg');
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+
+
+.erro p{
+    color: #d93025;
+    font-size: 13px;
+    
+}
+

@@ -1,0 +1,27 @@
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.erro p{
+    color: #d93025;
+    font-size: 13px;
+    
+}
+
+
+
+/*Rodape*/
+#rodape{
+    background-color: #F1F1F1;
+    position: static;
+}
+#rodape .container{
+    padding: 10px 0;
+    text-align: center;
+}
+#rodape .container p{
+    margin-bottom: 0;
+    font-size: 15px;
+}

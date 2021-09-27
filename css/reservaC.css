@@ -1,0 +1,37 @@
+/*Geral*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+body{
+    font-family: 'Roboto', sans-serif !important;
+    
+}
+/*Navbar*/
+#itens{
+    color: #FFF;
+}
+
+/*Titlo*/
+
+.main-title{
+    color: #444;
+    margin: 30px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    margin-top: 10px;
+    left: 42.5%;
+}
+@media (max-width: 992px) {
+    main{ 
+        padding-top: 8%!important;
+    }
+}

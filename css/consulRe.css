@@ -1,0 +1,45 @@
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/*Navbar*/
+.itens{
+    color: #FFF;
+}
+.main-title{
+    color: #444;
+    margin:  50px 0 72px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    margin-top: 10px;
+    left: 42.5%;
+}
+#box{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 2px 30px rgb(195, 195, 195);
+}
+
+form {
+    max-width: 320px;
+    margin: auto;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 300;
+}
+.erro p{
+    color: #d93025;
+    font-size: 13px; 
+}

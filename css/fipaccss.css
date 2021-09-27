@@ -1,0 +1,140 @@
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif !important;
+    width: 100%;
+}
+
+/*Navbar*/
+
+#itens{
+    color: #FFF;
+}
+/*CARROSEL*/
+
+.container-fluid{
+    padding: 0!important;
+}
+
+.carousel-item img{
+    height: 85vh;
+}
+/*Fipac*/
+
+#fipac{
+    background-color: #F9F9F9;
+}
+.main-title{
+    color: #444;
+    margin:  50px 0 72px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    margin-top: 10px;
+    left: 42.5%;
+}
+/*Transparencia*/
+
+.circle-box div{
+    padding: 0 16px;
+}
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+    top: 60% !important;
+}
+#transp p{
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+/*About Fipac*/
+
+#sub-title{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 22px;
+    margin: 0;
+}
+#sub{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#unic{
+    margin-bottom: 20px;
+}
+/*Rodape*/
+#rodape{
+    background-color: #F1F1F1;
+    position: static;
+}
+#rodape .container{
+    padding: 10px 0;
+    text-align: center;
+}
+#rodape .container p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+/*Responsivo*/
+@media(max-width: 1024px){
+    .circle-box div{
+        padding: 0 16px ;
+    }
+    .progressbar-text{
+        top: 66% !important;
+    }
+}
+@media(max-width: 768px) {
+    /*Transp*/
+    .circle-box div{
+        padding: 3px 10px!important;
+    }
+    .progressbar-text{
+        top: 72% !important;
+    }
+    #transp p{
+        font-size: 30px!important;
+    }
+}
+@media(max-width: 425px){
+    /*Transp*/
+    .progressbar-text{
+        top: 60% !important;
+}
+}
+
+@media(max-width: 375px){
+    /*Geral*/
+    .main-title::after{
+        width: 30%;
+        left: 35%;
+    }
+    /*Transp*/
+    .circle-box div{
+        padding: 10px 36px!important;
+    }
+    .progressbar-text{
+        top: 66% !important;
+    }
+    #transp p{
+        font-size: 40px!important;
+    }
+}
+@media (max-width: 576px) {
+
+    .espaco{
+        margin-top: 24px!important;
+    }
+}
+
+
+

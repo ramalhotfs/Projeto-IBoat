@@ -1,0 +1,84 @@
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-image:url('../img/fundo3.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+/*Estilização da NavBar*/
+#naval{
+    height: 50px;
+}
+
+#itens{
+    color: #FFF;
+}
+.teste{
+    background-color: white;
+    opacity: 0.93;
+    border-radius: 3%;
+    
+}
+#titulo{
+    display: none;
+}
+#titulo2{
+    display: block;
+}
+h4{
+    padding-top: 30px;
+}
+.titulo-qrcode{
+    padding-left: 10px;
+}
+#titulo>h4{
+    color:brown;
+}
+
+
+/*Estilização do formulario*/
+
+.campos{
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.form-check{
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.aviso{
+    font-size: 13px;
+    color: red;
+    display: inline-flex;
+}
+
+.campos button{
+    width: 100%;
+}
+
+
+#titulo>.campos{
+    margin-top: 50px;
+}
+
+#qrcode1>img{
+    display: inline!important;
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.main-title::after{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    margin-top: 10px;
+    left: 42.5%;
+}
